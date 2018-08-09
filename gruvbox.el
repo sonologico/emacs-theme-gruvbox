@@ -209,6 +209,11 @@ Should contain 2 %s constructs to allow for theme name and directory/prefix")
      (js2-jsdoc-html-tag-name                   (:background nil :foreground gruvbox-light4))
      (js2-jsdoc-html-tag-delimiter              (:background nil :foreground gruvbox-light3))
 
+     ;; cperl
+     (cperl-array-face                          (:inherit 'font-lock-variable-name-face :weight 'bold))
+     (cperl-hash-face                           (:inherit 'font-lock-variable-name-face :italic t :weight 'bold))
+     (cperl-nonoverridable-face                 (:inherit 'font-lock-builtin-face))
+
      ;; popup
      (popup-face                                (:underline nil :foreground gruvbox-light1 :background gruvbox-dark1))
      (popup-menu-mouse-face                     (:underline nil :foreground gruvbox-light0 :background gruvbox-faded_green))
